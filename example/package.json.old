@@ -1,0 +1,34 @@
+{
+  "name": "react-native-elements-minimalist-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.8.1",
+    "jest-expo": "23.0.0",
+    "react-test-renderer": "16.0.0"
+  },
+  "main": "App.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "clean-install":
+      "rm -rf node_modules && npm cache clean --force && watchman watch-del-all && npm install"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^23.0.4",
+    "react": "16.0.0",
+    "react-native":
+      "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
+    "react-native-elements-minimalist":
+      "file:///Users/applification/Apps/react-native-elements-minimalist/"
+  },
+  "peerDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
