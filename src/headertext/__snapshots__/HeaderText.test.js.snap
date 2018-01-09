@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HEADER TEXT renders HeaderText component 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={1}
+  style={
+    Object {
+      "color": "#000000",
+      "fontSize": 50,
+      "fontWeight": "bold",
+      "paddingBottom": 25,
+      "paddingLeft": 25,
+    }
+  }
+>
+  Big Header
+</Text>
+`;
+
+exports[`HEADER TEXT renders HeaderText in red using passed in prop 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={1}
+  style={
+    Object {
+      "color": "red",
+      "fontSize": 50,
+      "fontWeight": "bold",
+      "paddingBottom": 25,
+      "paddingLeft": 25,
+    }
+  }
+>
+  Red Header
+</Text>
+`;
