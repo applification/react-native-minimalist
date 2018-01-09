@@ -14,7 +14,7 @@
   },
   "scripts": {
     "clean-install": "rm -rf node_modules && npm cache clean --force && watchman watch-del-all && yarn",
-    "storybook": "storybook start -p 7007"
+    "storybook": "storybook start -p 9001"
   },
   "devDependencies": {
     "@storybook/react-native": "^3.3.6",
