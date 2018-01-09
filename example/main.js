@@ -1,22 +1,6 @@
 import Expo from 'expo';
-import React from 'react';
-import { StyleSheet, View, Platform } from 'react-native';
-import { Text } from 'react-native-elements-minimalist';
+import StorybookUI from './storybook';
 
-const MainRoot = () => (
-  <View
-    style={{
-      flex: 1,
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-    }}
-  >
-    {Platform.OS === 'android' && (
-      <View style={{ height: Expo.Constants.statusBarHeight }} />
-    )}
-    <Text>Hello.... from RNEM!</Text>
-  </View>
-);
+import App from './app';
 
-Expo.registerRootComponent(MainRoot);
+module.exports = __DEV__ ? StorybookUI : App;
