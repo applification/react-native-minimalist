@@ -25,4 +25,15 @@ describe('HEADER TEXT', () => {
 
     expect(numberOfLines).toBe(1);
   });
+
+  it('renders HeaderText with a fontsize of 35, bold', () => {
+    const componentOutput = JSON.parse(
+      JSON.stringify(renderer.create(<HeaderText>Header 50px</HeaderText>))
+    );
+    const fontSize = componentOutput.props.style.fontSize;
+    const fontWeight = componentOutput.props.style.fontWeight;
+
+    expect(fontSize).toBe(35);
+    expect(fontWeight).toBe('bold');
+  });
 });

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HEADER TEXT renders BodyText component 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Object {
+      "color": "#000000",
+      "fontSize": 17,
+      "fontWeight": "normal",
+      "paddingBottom": 15,
+    }
+  }
+>
+  Body text
+</Text>
+`;
+
+exports[`HEADER TEXT renders BodyText in red using passed in prop 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Object {
+      "color": "red",
+      "fontSize": 17,
+      "fontWeight": "normal",
+      "paddingBottom": 15,
+    }
+  }
+>
+  Red text
+</Text>
+`;

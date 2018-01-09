@@ -18,8 +18,9 @@ class HeaderTextElement extends Component {
           color: this.props.color,
           paddingLeft: 25,
           paddingBottom: 25,
+          paddingRight: 25,
           fontWeight: 'bold',
-          fontSize: 50,
+          fontSize: 35,
         }}
       >
         {this.props.children}

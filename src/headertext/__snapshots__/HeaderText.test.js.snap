@@ -9,10 +9,11 @@ exports[`HEADER TEXT renders HeaderText component 1`] = `
   style={
     Object {
       "color": "#000000",
-      "fontSize": 50,
+      "fontSize": 35,
       "fontWeight": "bold",
       "paddingBottom": 25,
       "paddingLeft": 25,
+      "paddingRight": 25,
     }
   }
 >
@@ -29,10 +30,11 @@ exports[`HEADER TEXT renders HeaderText in red using passed in prop 1`] = `
   style={
     Object {
       "color": "red",
-      "fontSize": 50,
+      "fontSize": 35,
       "fontWeight": "bold",
       "paddingBottom": 25,
       "paddingLeft": 25,
+      "paddingRight": 25,
     }
   }
 >
