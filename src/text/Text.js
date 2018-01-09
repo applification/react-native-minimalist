@@ -4,7 +4,7 @@ import { Text } from 'react-native';
 const TextElement = props => {
   const { children } = props;
 
-  return <Text style={{ color: 'red' }}>{children}</Text>;
+  return <Text style={{ color: 'blue' }}>{children}</Text>;
 };
 
 export default TextElement;
