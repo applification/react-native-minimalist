@@ -1,5 +1,5 @@
 {
-  "name": "react-native-elements-minimalist",
+  "name": "react-native-minimalist",
   "version": "0.1.0-beta.0",
   "description": "",
   "main": "src/index.js",
@@ -10,18 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/applification/react-native-elements-minimalist.git"
+    "url": "git+https://github.com/applification/react-native-elements-minimalist.git"
   },
-  "keywords": ["react", "native", "elements", "minimalist"],
+  "keywords": [
+    "react",
+    "native",
+    "elements",
+    "minimalist"
+  ],
   "author": "Dave Hudson <dave@applification.net> (http://applification.net/)",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/applification/react-native-elements-minimalist/issues"
+    "url": "https://github.com/applification/react-native-elements-minimalist/issues"
   },
-  "homepage":
-    "https://github.com/applification/react-native-elements-minimalist#readme",
+  "homepage": "https://github.com/applification/react-native-elements-minimalist#readme",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.0",
@@ -40,7 +42,9 @@
   "jest": {
     "preset": "react-native",
     "testRegex": ".*.test.js$",
-    "setupFiles": ["./jestsetup.js"],
+    "setupFiles": [
+      "./jestsetup.js"
+    ],
     "transformIgnorePatterns": [
       "node_modules/(?!react-native|native-base|@shoutem/theme|@shoutem/animation|@shoutem/ui|native-base-shoutem-theme)"
     ]
