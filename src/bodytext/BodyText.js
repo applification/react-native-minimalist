@@ -15,6 +15,8 @@ class HeaderTextElement extends Component {
       <Text
         style={{
           color: this.props.color,
+          paddingLeft: 25,
+          paddingRight: 25,
           paddingBottom: 15,
           fontWeight: 'normal',
           fontSize: 17,
