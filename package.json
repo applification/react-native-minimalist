@@ -12,7 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/applification/react-native-minimalist.git"
   },
-  "keywords": ["react", "native", "elements", "minimalist"],
+  "keywords": [
+    "react",
+    "native",
+    "elements",
+    "minimalist"
+  ],
   "author": "Dave Hudson <dave@applification.net> (http://applification.net/)",
   "license": "MIT",
   "bugs": {
@@ -37,7 +42,9 @@
   "jest": {
     "preset": "react-native",
     "testRegex": ".*.test.js$",
-    "setupFiles": ["./jestsetup.js"],
+    "setupFiles": [
+      "./jestsetup.js"
+    ],
     "transformIgnorePatterns": [
       "node_modules/(?!react-native|native-base|@shoutem/theme|@shoutem/animation|@shoutem/ui|native-base-shoutem-theme)"
     ]
