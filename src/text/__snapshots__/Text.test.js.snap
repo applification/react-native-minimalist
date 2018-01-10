@@ -1,20 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TEXT renders text component with the text 'Hello' 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  style={
-    Object {
-      "color": "blue",
-    }
-  }
->
-  Hello
-</Text>
-`;
-
 exports[`TEXT renders text component with the text Hello 1`] = `
 <Text
   accessible={true}
