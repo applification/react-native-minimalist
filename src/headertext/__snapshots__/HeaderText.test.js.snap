@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HEADER TEXT renders HeaderText component 1`] = `
+exports[`HEADER TEXT Renders with DefaultProps 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -21,7 +21,7 @@ exports[`HEADER TEXT renders HeaderText component 1`] = `
 </Text>
 `;
 
-exports[`HEADER TEXT renders HeaderText in red using passed in prop 1`] = `
+exports[`HEADER TEXT Renders with color prop (red) 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
