@@ -17,21 +17,19 @@ describe('HEADER TEXT', () => {
   });
 
   it('renders HeaderText on a single line', () => {
-    const componentOutput = JSON.parse(
-      JSON.stringify(renderer.create(<HeaderText>Longish Header</HeaderText>))
-    );
-    const numberOfLines = componentOutput.props.numberOfLines;
-    // probably a better way of getting this value
+    const component = renderer
+      .create(<HeaderText>Longish Header</HeaderText>)
+      .toJSON();
+    const { numberOfLines } = component.props;
 
     expect(numberOfLines).toBe(1);
   });
 
   it('renders HeaderText with a fontsize of 35, bold', () => {
-    const componentOutput = JSON.parse(
-      JSON.stringify(renderer.create(<HeaderText>Header 50px</HeaderText>))
-    );
-    const fontSize = componentOutput.props.style.fontSize;
-    const fontWeight = componentOutput.props.style.fontWeight;
+    const component = renderer
+      .create(<HeaderText>Header 50px</HeaderText>)
+      .toJSON();
+    const { fontSize, fontWeight } = component.props.style;
 
     expect(fontSize).toBe(35);
     expect(fontWeight).toBe('bold');
