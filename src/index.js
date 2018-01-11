@@ -3,7 +3,7 @@ import HeaderText from './headertext/HeaderText';
 import BodyText from './bodytext/BodyText';
 import Profile from './profile/Profile';
 import Divider from './divider/Divider';
-import Image from './image/Image';
+import Photo from './photo/Photo';
 import List from './listitem/List';
 import ListItem from './listitem/ListItem';
 
@@ -13,7 +13,7 @@ export {
   BodyText,
   Profile,
   Divider,
-  Image,
+  Photo,
   List,
   ListItem,
 };

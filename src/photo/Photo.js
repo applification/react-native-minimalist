@@ -3,7 +3,7 @@ import { Dimensions } from 'react-native';
 import PropTypes from 'prop-types';
 import AutoHeightImage from 'react-native-auto-height-image';
 
-class ImageElement extends Component {
+class PhotoElement extends Component {
   static propTypes = {
     imageURL: PropTypes.string.isRequired,
   };
@@ -18,4 +18,4 @@ class ImageElement extends Component {
   }
 }
 
-export default ImageElement;
+export default PhotoElement;
