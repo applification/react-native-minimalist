@@ -17,7 +17,6 @@ class Content extends Component {
       <View
         style={{
           flex: 1,
-          paddingTop: 30, // (iOS only)
           backgroundColor: this.props.backgroundColor,
         }}
       >

@@ -13,6 +13,4 @@ describe('CONTENT VIEW', () => {
       renderer.create(<Content backgroundColor="cyan" />)
     ).toMatchSnapshot();
   });
-
-  // TEST for iOS paddingTop 30
 });
