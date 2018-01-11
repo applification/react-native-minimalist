@@ -1,11 +1,76 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PHOTOINFO Renders photo info component 1`] = `
+exports[`PHOTOINFO Renders WITH a subtitle 1`] = `
 <View
   style={
     Object {
       "flexDirection": "row",
       "justifyContent": "flex-start",
+      "paddingBottom": 5,
+      "paddingTop": 5,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 15,
+        "height": 30,
+        "margin": 7,
+        "width": 30,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "alignContent": "flex-start",
+        "alignSelf": "center",
+        "flexGrow": 1,
+      }
+    }
+  >
+    bentierney
+     
+    
+
+    Guitar Center
+  </Text>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/imgs/more.png",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "center",
+        "height": 22,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "width": 22,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`PHOTOINFO Renders WITHOUT out subtitle 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "paddingBottom": 5,
+      "paddingTop": 5,
     }
   }
 >
@@ -37,6 +102,71 @@ exports[`PHOTOINFO Renders photo info component 1`] = `
     }
   >
     josh.duplessis
+     
+    
+
+  </Text>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/imgs/more.png",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "center",
+        "height": 22,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "width": 22,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`PHOTOINFO Renders photo info component 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "paddingBottom": 5,
+      "paddingTop": 5,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 15,
+        "height": 30,
+        "margin": 7,
+        "width": 30,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "alignContent": "flex-start",
+        "alignSelf": "center",
+        "flexGrow": 1,
+      }
+    }
+  >
+    josh.duplessis
+     
+    
+
   </Text>
   <Image
     source={

@@ -4,7 +4,7 @@ import { Image } from 'react-native';
 
 class ProfileElement extends Component {
   static propTypes = {
-    source: PropTypes.object.isRequired,
+    source: PropTypes.any.isRequired,
     small: PropTypes.bool,
   };
   static defaultProps = {
