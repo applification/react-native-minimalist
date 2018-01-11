@@ -6,6 +6,7 @@ exports[`CONTENT VIEW renders a Content Component using defaultProps of white ba
     Object {
       "backgroundColor": "#FFFFFF",
       "flex": 1,
+      "paddingTop": 30,
     }
   }
 />
@@ -17,6 +18,7 @@ exports[`CONTENT VIEW renders a Content Component using passed in prop of cyan b
     Object {
       "backgroundColor": "cyan",
       "flex": 1,
+      "paddingTop": 30,
     }
   }
 />

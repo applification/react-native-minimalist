@@ -5,6 +5,7 @@ import { View } from 'react-native';
 class Content extends Component {
   static propTypes = {
     backgroundColor: PropTypes.string.isRequired,
+    children: PropTypes.any,
   };
 
   static defaultProps = {
@@ -13,7 +14,13 @@ class Content extends Component {
 
   render() {
     return (
-      <View style={{ flex: 1, backgroundColor: this.props.backgroundColor }}>
+      <View
+        style={{
+          flex: 1,
+          paddingTop: 30, // (iOS only)
+          backgroundColor: this.props.backgroundColor,
+        }}
+      >
         {this.props.children}
       </View>
     );
