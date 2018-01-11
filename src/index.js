@@ -4,6 +4,7 @@ import BodyText from './bodytext/BodyText';
 import Profile from './profile/Profile';
 import Divider from './divider/Divider';
 import Photo from './photo/Photo';
+import PhotoInfo from './photoinfo/PhotoInfo';
 import List from './listitem/List';
 import ListItem from './listitem/ListItem';
 
@@ -14,6 +15,7 @@ export {
   Profile,
   Divider,
   Photo,
+  PhotoInfo,
   List,
   ListItem,
 };
