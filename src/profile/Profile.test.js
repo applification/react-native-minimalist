@@ -29,4 +29,13 @@ describe('PROFILE', () => {
     expect(borderRadius).toBe(25);
     expect(margin).toBe(10);
   });
+
+  it('Renders small profile image with small prop', () => {
+    const component = renderer.create(<Profile small />).toJSON();
+    const { width, height, borderRadius, margin } = component.props.style;
+
+    expect(width && height).toBe(30);
+    expect(borderRadius).toBe(15);
+    expect(margin).toBe(7);
+  });
 });
