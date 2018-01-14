@@ -1,5 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`HEADER TEXT Always renders with paddingLeft, paddingBottom & paddingRight of 25 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={1}
+  style={
+    Object {
+      "color": "#000000",
+      "fontSize": 35,
+      "fontWeight": "bold",
+      "paddingBottom": 25,
+      "paddingLeft": 25,
+      "paddingRight": 25,
+      "paddingTop": 25,
+    }
+  }
+>
+  Padded Header
+</Text>
+`;
+
 exports[`HEADER TEXT Renders with DefaultProps 1`] = `
 <Text
   accessible={true}
@@ -14,6 +36,7 @@ exports[`HEADER TEXT Renders with DefaultProps 1`] = `
       "paddingBottom": 25,
       "paddingLeft": 25,
       "paddingRight": 25,
+      "paddingTop": 25,
     }
   }
 >
@@ -35,6 +58,7 @@ exports[`HEADER TEXT Renders with color prop (red) 1`] = `
       "paddingBottom": 25,
       "paddingLeft": 25,
       "paddingRight": 25,
+      "paddingTop": 25,
     }
   }
 >

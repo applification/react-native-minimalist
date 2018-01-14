@@ -10,6 +10,14 @@ describe('HEADER TEXT', () => {
     ).toMatchSnapshot();
   });
 
+  it('should have text as children', () => {
+    const component = renderer
+      .create(<HeaderText>Children should be text</HeaderText>)
+      .toJSON();
+
+    expect(component.children[0]).toBe('Children should be text');
+  });
+
   it('Renders with color prop (red)', () => {
     expect(
       renderer.create(<HeaderText color="red">Red Header</HeaderText>)
@@ -29,7 +37,18 @@ describe('HEADER TEXT', () => {
     const component = renderer
       .create(<HeaderText>Padded Header</HeaderText>)
       .toJSON();
-    const { paddingLeft, paddingBottom, paddingRight } = component.props.style;
+    const {
+      paddingLeft,
+      paddingBottom,
+      paddingRight,
+      paddingTop,
+    } = component.props.style;
+
+    expect(paddingLeft).toBe(25);
+    expect(paddingRight).toBe(25);
+    expect(paddingBottom).toBe(25);
+    expect(paddingTop).toBe(25);
+    expect(component).toMatchSnapshot();
   });
 
   it('Always renders with a fontsize of 35 in bold', () => {

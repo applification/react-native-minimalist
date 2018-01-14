@@ -5,6 +5,7 @@ import { Text } from 'react-native';
 class HeaderTextElement extends Component {
   static propTypes = {
     color: PropTypes.string.isRequired,
+    children: PropTypes.any,
   };
   static defaultProps = {
     color: '#000000',
@@ -19,6 +20,7 @@ class HeaderTextElement extends Component {
           paddingLeft: 25,
           paddingBottom: 25,
           paddingRight: 25,
+          paddingTop: 25,
           fontWeight: 'bold',
           fontSize: 35,
         }}
