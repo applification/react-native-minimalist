@@ -5,8 +5,10 @@ exports[`PHOTOINFO Renders WITH a subtitle 1`] = `
   style={
     Object {
       "flexDirection": "row",
+      "height": 50,
       "justifyContent": "flex-start",
       "paddingBottom": 5,
+      "paddingLeft": 3,
       "paddingTop": 5,
     }
   }
@@ -35,11 +37,11 @@ exports[`PHOTOINFO Renders WITH a subtitle 1`] = `
         "alignContent": "flex-start",
         "alignSelf": "center",
         "flexGrow": 1,
+        "paddingLeft": 7,
       }
     }
   >
     bentierney
-     
     
 
     Guitar Center
@@ -68,8 +70,10 @@ exports[`PHOTOINFO Renders WITHOUT out subtitle 1`] = `
   style={
     Object {
       "flexDirection": "row",
+      "height": 50,
       "justifyContent": "flex-start",
       "paddingBottom": 5,
+      "paddingLeft": 3,
       "paddingTop": 5,
     }
   }
@@ -98,13 +102,11 @@ exports[`PHOTOINFO Renders WITHOUT out subtitle 1`] = `
         "alignContent": "flex-start",
         "alignSelf": "center",
         "flexGrow": 1,
+        "paddingLeft": 7,
       }
     }
   >
     josh.duplessis
-     
-    
-
   </Text>
   <Image
     source={
@@ -130,8 +132,10 @@ exports[`PHOTOINFO Renders photo info component 1`] = `
   style={
     Object {
       "flexDirection": "row",
+      "height": 50,
       "justifyContent": "flex-start",
       "paddingBottom": 5,
+      "paddingLeft": 3,
       "paddingTop": 5,
     }
   }
@@ -160,13 +164,11 @@ exports[`PHOTOINFO Renders photo info component 1`] = `
         "alignContent": "flex-start",
         "alignSelf": "center",
         "flexGrow": 1,
+        "paddingLeft": 7,
       }
     }
   >
     josh.duplessis
-     
-    
-
   </Text>
   <Image
     source={
