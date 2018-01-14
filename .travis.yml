@@ -1,18 +1,14 @@
 language: node_js
+node_js:
+  - stable
 cache:
   directories:
+    - node_modules
     - ~/.npm
-notifications:
-  email: false
-node_js:
-  - '9'
-  - '8'
-  - '6'
-  - '4'
+branches:
+  only:
+  - master    
 script:
 - npm run test  
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
-branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
