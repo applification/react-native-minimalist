@@ -1,23 +1,21 @@
 {
   "name": "react-native-minimalist",
-  "version": "0.1.0-beta.0",
+  "version": "0.0.0-semantically-released",
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "commit": "git-cz",
     "build": "rm -rf build; webpack",
     "test": "jest --forceExit",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/applification/react-native-minimalist.git"
+    "url": "https://github.com/applification/react-native-minimalist.git"
   },
-  "keywords": [
-    "react",
-    "native",
-    "elements",
-    "minimalist"
-  ],
+  "keywords": ["react", "native", "elements", "minimalist"],
   "author": "Dave Hudson <dave@applification.net> (http://applification.net/)",
   "license": "MIT",
   "bugs": {
@@ -30,6 +28,8 @@
     "babel-eslint": "8.2.1",
     "babel-loader": "^7.1.2",
     "babel-preset-react-native": "^4.0.0",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
     "eslint": "4.15.0",
     "eslint-plugin-react": "7.5.1",
     "eslint-plugin-react-native": "3.2.0",
@@ -37,6 +37,8 @@
     "jest-cli": "22.0.5",
     "react": "^16.2.0",
     "react-native": "^0.51.0",
+    "semantic-release": "^12.2.2",
+    "travis-deploy-once": "^4.3.1",
     "webpack": "3.10.0"
   },
   "dependencies": {
@@ -47,11 +49,12 @@
   "jest": {
     "preset": "react-native",
     "testRegex": ".*.test.js$",
-    "setupFiles": [
-      "./jestsetup.js"
-    ],
+    "setupFiles": ["./jestsetup.js"],
     "transformIgnorePatterns": [
       "node_modules/(?!react-native|native-base|@shoutem/theme|@shoutem/animation|@shoutem/ui|native-base-shoutem-theme)"
     ]
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
