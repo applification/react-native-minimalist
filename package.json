@@ -9,6 +9,7 @@
     "test": "jest --forceExit",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
+    "report:coverage": "./bin/codecov -e",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
