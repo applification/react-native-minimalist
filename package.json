@@ -9,7 +9,7 @@
     "test": "jest --forceExit",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "report:coverage": "./bin/codecov -e",
+    "report:coverage": "jest && codecov",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
@@ -69,7 +69,9 @@
         "lines": 80,
         "statements": 80
       }
-    }
+    },
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   },
   "config": {
     "commitizen": {
