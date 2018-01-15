@@ -13,7 +13,7 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
-  local-dir: docs/
+  local-dir: docs/public
   on:
     branch: master
 script:
@@ -21,3 +21,6 @@ script:
 after_success:
   - npm run report:coverage
   - npm run travis-deploy-once "npm run semantic-release"
+  - npm i -g gatsby
+  - cd docs
+  - npm run build
