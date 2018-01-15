@@ -7,6 +7,8 @@ import Photo from './photo/Photo';
 import PhotoInfo from './photoinfo/PhotoInfo';
 import List from './listitem/List';
 import ListItem from './listitem/ListItem';
+import getIconType, { registerCustomIconType } from './helpers/getIconType';
+import Icon from './icon/Icon';
 
 export {
   Content,
@@ -18,4 +20,7 @@ export {
   PhotoInfo,
   List,
   ListItem,
+  getIconType,
+  registerCustomIconType,
+  Icon,
 };
