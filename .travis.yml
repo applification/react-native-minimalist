@@ -13,8 +13,8 @@ script:
 after_success:
   - npm run report:coverage
   - npm run travis-deploy-once "npm run semantic-release"
-  - npm i -g gatsby
   - cd docs
+  - npm install
   - npm run build
 deploy: 
   provider: pages
