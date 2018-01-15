@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ICON Renderes with a custom color 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={false}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#D7235F",
+        "fontSize": 30,
+      },
+      Object {
+        "padding": 10,
+      },
+      Object {
+        "fontFamily": "Feather",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+    ]
+  }
+  testID="user"
+>
+  
+</Text>
+`;
+
+exports[`ICON Renders with DefaultProps 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={false}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#000000",
+        "fontSize": 30,
+      },
+      Object {
+        "padding": 10,
+      },
+      Object {
+        "fontFamily": "Feather",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+    ]
+  }
+  testID="user"
+>
+  
+</Text>
+`;
+
+exports[`ICON Renders with a user selected icon font 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={false}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#000000",
+        "fontSize": 30,
+      },
+      Object {
+        "padding": 10,
+      },
+      Object {
+        "fontFamily": "simple-line-icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+    ]
+  }
+  testID="user"
+>
+  
+</Text>
+`;

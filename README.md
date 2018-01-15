@@ -7,6 +7,7 @@
 [![version](https://img.shields.io/npm/v/react-native-minimalist.svg?style=flat-square)](https://www.npmjs.com/package/react-native-minimalist)
 [![downloads](https://img.shields.io/npm/dm/react-native-minimalist.svg?style=flat-square)](http://npm-stat.com/charts.html?package=react-native-minimalist)
 [![MIT License](https://img.shields.io/npm/l/react-native-minimalist.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![Styled with Prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 React Native Minimalist is an opinionated React Native UI Library to make the creation of the minimalist app design style a breeze.
 
