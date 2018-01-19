@@ -25,10 +25,11 @@ const siteConfig = {
   repo: 'applificaiton/react-native-minimalist',
   repoUrl: 'https://github.com/applification/react-native-minimalist',
   headerLinks: [
-    { doc: 'doc1', label: 'Docs' },
-    { doc: 'doc4', label: 'API' },
-    { page: 'help', label: 'Help' },
+    { doc: 'installation', label: 'Docs' },
+    { page: 'storybook', label: 'Storybook' },
+    { languages: true },
     { blog: true, label: 'Blog' },
+    { href: 'https://github.com/applification/react-native-minimalist', external: true, label: 'Github' }
   ],
   users,
   /* path to images for header/footer */

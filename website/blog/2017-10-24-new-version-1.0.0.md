@@ -1,8 +1,11 @@
 ---
-title: New Version 1.0.0
-author: Eric Nakagawa
-authorURL: http://twitter.com/ericnakagawa
-authorFBID: 661277173
+title: Beta Version 0.1.0
+author: Dave Hudson
+authorURL: http://twitter.com/applificationhq
 ---
 
-This blog post will test file name parsing issues when periods are present.
+React Native Minimalist published!
+
+<!--truncate-->
+
+## Some further details
