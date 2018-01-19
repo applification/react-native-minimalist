@@ -1,3 +1,0 @@
-{
-  pathPrefix: "/react-native-minimalist"
-}
