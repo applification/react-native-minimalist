@@ -21,6 +21,6 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
-  local-dir: website/build/react-native-minimalist
+  local-dir: build/react-native-minimalist
   on:
     branch: master
