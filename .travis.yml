@@ -13,7 +13,7 @@ script:
 after_success:
   - npm run report:coverage
   - npm run travis-deploy-once "npm run semantic-release"
-  - cd docs
+  - cd website
   - npm install
   - npm run build
 deploy: 
@@ -21,6 +21,6 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
-  local-dir: public
+  local-dir: website/build/react-native-minimalist
   on:
     branch: master

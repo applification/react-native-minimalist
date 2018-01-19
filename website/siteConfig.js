@@ -18,9 +18,12 @@ const users = [
 const siteConfig = {
   title: 'React Native Minimalist' /* title for your website */,
   tagline: 'An opinionated minimalist UI library for React Native',
-  url: 'https://applification.github.io/react-native-minimalist/' /* your website url */,
+  url: 'https://applification.github.io' /* your website url */,
   baseUrl: '/react-native-minimalist/' /* base url for your project */,
+  organizationName: 'applification', // or set an env variable ORGANIZATION_NAME
   projectName: 'react-native-minimalist',
+  repo: 'applificaiton/react-native-minimalist',
+  repoUrl: 'https://github.com/applification/react-native-minimalist',
   headerLinks: [
     { doc: 'doc1', label: 'Docs' },
     { doc: 'doc4', label: 'API' },
@@ -42,15 +45,13 @@ const siteConfig = {
     'Copyright © ' +
     new Date().getFullYear() +
     ' Applification Ltd',
-  organizationName: 'Applification', // or set an env variable ORGANIZATION_NAME
-  //projectName: 'react-native-minimalist', // or set an env variable PROJECT_NAME
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/facebook/test-site',
+
 };
 
 module.exports = siteConfig;
