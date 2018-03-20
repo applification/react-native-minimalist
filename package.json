@@ -32,28 +32,29 @@
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.0",
-    "babel-eslint": "8.2.1",
-    "babel-loader": "^7.1.2",
+    "babel-eslint": "8.2.2",
+    "babel-loader": "^7.1.4",
     "babel-preset-react-native": "^4.0.0",
     "codecov": "3.0.0",
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.1.0",
-    "eslint": "4.15.0",
-    "eslint-plugin-react": "7.5.1",
-    "eslint-plugin-react-native": "3.2.0",
+    "eslint": "4.19.0",
+    "eslint-plugin-react": "7.7.0",
+    "eslint-plugin-react-native": "3.2.1",
     "ghooks": "2.0.2",
-    "jest": "22.0.5",
-    "jest-cli": "22.0.5",
+    "jest": "22.4.2",
+    "jest-cli": "22.4.2",
     "react": "^16.2.0",
-    "react-native": "^0.51.0",
-    "react-native-vector-icons": "4.5.0",
-    "semantic-release": "^12.2.2",
-    "travis-deploy-once": "^4.3.1",
+    "react-native": "^0.54.2",
+    "semantic-release": "^15.1.2",
+    "travis-deploy-once": "^4.4.1",
     "webpack": "3.10.0"
   },
   "dependencies": {
-    "prop-types": "^15.6.0",
-    "react-native-auto-height-image": "0.3.4",
+    "prop-types": "^15.6.1",
+    "react-dom": "16.2.0",
+    "react-native-auto-height-image": "1.0.0",
+    "react-primitives": "0.5.0",
     "react-test-renderer": "16.2.0"
   },
   "jest": {
@@ -63,12 +64,11 @@
       "./jestsetup.js"
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!react-native|native-base|@shoutem/theme|@shoutem/animation|@shoutem/ui|native-base-shoutem-theme)"
+      "node_modules/(?!react-native)"
     ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!src/index.js",
-      "!src/helpers/getIconType.js",
       "!<rootDir>/node_modules/",
       "!<rootDir>/path/to/dir/"
     ],

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Image } from 'react-native';
+import { Image } from 'react-primitives';
 
 class ProfileElement extends Component {
   static propTypes = {

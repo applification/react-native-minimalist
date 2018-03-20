@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text } from 'react-primitives';
 import PropTypes from 'prop-types';
 
 class ListItemComponent extends Component {

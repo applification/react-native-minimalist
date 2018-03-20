@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Dimensions } from 'react-native';
+import { Dimensions, Image } from 'react-primitives';
 import PropTypes from 'prop-types';
-import AutoHeightImage from 'react-native-auto-height-image';
 
 class PhotoElement extends Component {
   static propTypes = {
@@ -10,10 +9,12 @@ class PhotoElement extends Component {
 
   render() {
     return (
-      <AutoHeightImage
-        width={Dimensions.get('window').width}
-        imageURL={this.props.imageURL}
-      />
+      <React.Fragment>
+        <Image
+          style={{ width: Dimensions.get('window').width, height: 350 }}
+          source={{ uri: this.props.imageURL }}
+        />
+      </React.Fragment>
     );
   }
 }
