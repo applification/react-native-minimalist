@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Dimensions, Image } from 'react-primitives';
+import { Image } from 'react-primitives';
+import { Dimensions } from 'react-native';
 import PropTypes from 'prop-types';
 
 class PhotoElement extends Component {
