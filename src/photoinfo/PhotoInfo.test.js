@@ -1,7 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
+import IconCamera from 'react-native-minimalist-icons/camera';
 
 import PhotoInfo from './PhotoInfo';
+
+const Icon = <IconCamera style={{ color: '#000000', height: '1.6em' }} />;
 
 describe('PHOTOINFO', () => {
   it('Renders photo info component', () => {
@@ -12,7 +15,7 @@ describe('PHOTOINFO', () => {
             'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg',
         }}
         title="josh.duplessis"
-        icon={require('../imgs/more.png')}
+        icon={Icon}
       />
     );
 
@@ -27,7 +30,7 @@ describe('PHOTOINFO', () => {
             'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg',
         }}
         title="josh.duplessis"
-        icon={require('../imgs/more.png')}
+        icon={Icon}
       />
     );
 
@@ -43,7 +46,7 @@ describe('PHOTOINFO', () => {
         }}
         title="bentierney"
         subtitle="Guitar Center"
-        icon={require('../imgs/more.png')}
+        icon={Icon}
       />
     );
 

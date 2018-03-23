@@ -51,9 +51,12 @@
     "webpack": "3.10.0"
   },
   "dependencies": {
+    "babel-plugin-react-native-web": "0.5.3",
     "prop-types": "^15.6.1",
     "react-dom": "16.2.0",
     "react-native-auto-height-image": "1.0.0",
+    "react-native-minimalist-icons": "1.0.0",
+    "react-native-web": "0.5.3",
     "react-primitives": "0.5.0",
     "react-test-renderer": "16.2.0"
   },

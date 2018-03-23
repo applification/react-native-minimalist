@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
-import { Image } from 'react-primitives';
+import AutoHeightImage from 'react-native-auto-height-image';
 import { Dimensions } from 'react-native';
 import PropTypes from 'prop-types';
 
-class PhotoElement extends Component {
+class PhotoIOSElement extends Component {
   static propTypes = {
     imageURL: PropTypes.string.isRequired,
   };
 
   render() {
     return (
-      <Image
-        style={{ width: Dimensions.get('window').width, height: 350 }}
+      <AutoHeightImage
+        width={Dimensions.get('window').width}
         source={{ uri: this.props.imageURL }}
       />
     );
   }
 }
 
-export default PhotoElement;
+export default PhotoIOSElement;

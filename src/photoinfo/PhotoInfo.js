@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Image } from 'react-primitives';
+import { View, Text } from 'react-primitives';
 import PropTypes from 'prop-types';
 
 import Profile from '../profile/Profile';
@@ -55,16 +55,15 @@ class PhotoInfoComponent extends Component {
           </Text>
         )}
 
-        <Image
-          source={icon}
+        <View
           style={{
             alignSelf: 'center',
             marginLeft: 10,
             marginRight: 10,
-            height: 22,
-            width: 22,
           }}
-        />
+        >
+          {icon}
+        </View>
       </View>
     );
   }
