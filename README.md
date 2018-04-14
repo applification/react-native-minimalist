@@ -2,7 +2,7 @@
 
 # react-native-minimalist
 
-![React Native Minimalist Logo](assets/Minimalist-Logo.png)
+![React Native Minimalist Logo](Minimalist-Logo.png)
 
 </div>
 
@@ -55,7 +55,21 @@ Storybook driven Design System that utilises React Primitives, React Native Web,
 
 ## Table of Contents
 
-INSERT using https://github.com/thlorenz/doctoc
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Examples](#examples)
+* [FAQ](#faq)
+* [Inspiration](#inspiration)
+* [Contributors](#contributors)
+* [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Installation
 
