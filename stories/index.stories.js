@@ -6,6 +6,9 @@ import Content from '../src/content/Content';
 import HeaderText from '../src/headertext/HeaderText';
 import BodyText from '../src/bodytext/BodyText';
 import Profile from '../src/profile/Profile';
+import Divider from '../src/divider/Divider';
+import ListItem from '../src/listitem/ListItem';
+import Photo from '../src/photo/Photo';
 
 storiesOf('Content', module)
   .add('DefaultProps (white)', () => (
@@ -44,27 +47,24 @@ storiesOf('Profile', module)
   ))
   .add('Profile small', () => <Profile small />);
 
-// storiesOf('Divider', module)
-//   .add('Divider', () => <Divider />)
-//   .add('Divider Red', () => <Divider color="red" />)
-//   .add('Divider fullWidth', () => <Divider fullWidth />);
+storiesOf('Divider', module)
+  .add('Divider', () => <Divider />)
+  .add('Divider Red', () => <Divider color="red" />)
+  .add('Divider fullWidth', () => <Divider fullWidth />);
 
-// storiesOf('Photo', module).add('Photo', () => (
-//   <Photo
-//     imageURL={
-//       'https://scontent-lht6-1.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/26152588_1188914984576015_4446380707253583872_n.jpg'
-//     }
-//   />
-// ));
+storiesOf('Photo', module).add('Photo', () => (
+  <Photo
+    imageURL={
+      'https://scontent-lhr3-1.cdninstagram.com/vp/157f88d298739845194d19096bc9834f/5B6F2F47/t51.2885-15/e35/28157443_404441573303128_568809590188146688_n.jpg'
+    }
+  />
+));
 
-// //const peopleData = require('./data/people.json');
-// //storiesOf('List', module).add('List', () => <List data={peopleData} />);
-
-// storiesOf('ListItem', module).add('ListItem', () => (
-//   <Content>
-//     <ListItem title="List item title" />
-//   </Content>
-// ));
+storiesOf('ListItem', module).add('ListItem', () => (
+  <Content>
+    <ListItem title="List item title" />
+  </Content>
+));
 
 // storiesOf('PhotoInfo', module)
 //   .add('PhotoInfo', () => (

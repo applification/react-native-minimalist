@@ -96,9 +96,7 @@ import {
 
 All components have been developed and tested using storybook, to play around with all the components, props and various states clone the Demo App.
 
-Storybook API [https://applification.github.io/react-native-minimalist/storybook.html](https://applification.github.io/react-native-minimalist/storybook.html)
-
-Read the docs [https://applification.github.io/react-native-minimalist/](https://applification.github.io/react-native-minimalist/)
+Storybook API [https://applification.github.io/react-native-minimalist](https://applification.github.io/react-native-minimalist)
 
 React Native Minimalist App
 
