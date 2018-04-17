@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "prepublish": "babel src --out-dir build",
-    "test": "jest --forceExit",
+    "test": "jest --forceExit ",
     "test:watch": "jest --watch --coverage=false",
     "test:coverage": "jest --coverage",
     "report:coverage": "jest && codecov",

@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PHOTOINFO Renders WITH a subtitle 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "flex-start",
+      "paddingBottom": 5,
+      "paddingLeft": 3,
+      "paddingTop": 5,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 15,
+        "height": 30,
+        "margin": 7,
+        "width": 30,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "alignContent": "flex-start",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "paddingLeft": 7,
+      }
+    }
+  >
+    bentierney
+    
+
+    Guitar Center
+  </Text>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "marginLeft": 10,
+        "marginRight": 10,
+      }
+    }
+  >
+    <svg
+      className="rn-display-4qtqp9 rn-fill-yyyyoo rn-maxWidth-dnmrzs rn-position-bnwqim rn-verticalAlign-m6rgpd rn-userSelect-lrvibr"
+      style={
+        Object {
+          "color": "rgba(0,0,0,1)",
+          "height": "1.6em",
+        }
+      }
+      viewBox="0 0 24 24"
+    >
+      <g>
+        <path
+          d="M19.75 5.083h-2.188C16.368 3.17 14.278 2 12 2S7.633 3.17 6.438 5.083H4.25C3.01 5.083 2 6.093 2 7.333V19.75C2 20.99 3.01 22 4.25 22h15.5c1.24 0 2.25-1.01 2.25-2.25V7.333c0-1.24-1.01-2.25-2.25-2.25zM12 17.528a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"
+        />
+      </g>
+    </svg>
+  </View>
+</View>
+`;
+
+exports[`PHOTOINFO Renders WITHOUT out subtitle 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "flex-start",
+      "paddingBottom": 5,
+      "paddingLeft": 3,
+      "paddingTop": 5,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 15,
+        "height": 30,
+        "margin": 7,
+        "width": 30,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "alignContent": "flex-start",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "paddingLeft": 7,
+      }
+    }
+  >
+    josh.duplessis
+  </Text>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "marginLeft": 10,
+        "marginRight": 10,
+      }
+    }
+  >
+    <svg
+      className="rn-display-4qtqp9 rn-fill-yyyyoo rn-maxWidth-dnmrzs rn-position-bnwqim rn-verticalAlign-m6rgpd rn-userSelect-lrvibr"
+      style={
+        Object {
+          "color": "rgba(0,0,0,1)",
+          "height": "1.6em",
+        }
+      }
+      viewBox="0 0 24 24"
+    >
+      <g>
+        <path
+          d="M19.75 5.083h-2.188C16.368 3.17 14.278 2 12 2S7.633 3.17 6.438 5.083H4.25C3.01 5.083 2 6.093 2 7.333V19.75C2 20.99 3.01 22 4.25 22h15.5c1.24 0 2.25-1.01 2.25-2.25V7.333c0-1.24-1.01-2.25-2.25-2.25zM12 17.528a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"
+        />
+      </g>
+    </svg>
+  </View>
+</View>
+`;
+
+exports[`PHOTOINFO Renders photo info component 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "flex-start",
+      "paddingBottom": 5,
+      "paddingLeft": 3,
+      "paddingTop": 5,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 15,
+        "height": 30,
+        "margin": 7,
+        "width": 30,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "alignContent": "flex-start",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "paddingLeft": 7,
+      }
+    }
+  >
+    josh.duplessis
+  </Text>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "marginLeft": 10,
+        "marginRight": 10,
+      }
+    }
+  >
+    <svg
+      className="rn-display-4qtqp9 rn-fill-yyyyoo rn-maxWidth-dnmrzs rn-position-bnwqim rn-verticalAlign-m6rgpd rn-userSelect-lrvibr"
+      style={
+        Object {
+          "color": "rgba(0,0,0,1)",
+          "height": "1.6em",
+        }
+      }
+      viewBox="0 0 24 24"
+    >
+      <g>
+        <path
+          d="M19.75 5.083h-2.188C16.368 3.17 14.278 2 12 2S7.633 3.17 6.438 5.083H4.25C3.01 5.083 2 6.093 2 7.333V19.75C2 20.99 3.01 22 4.25 22h15.5c1.24 0 2.25-1.01 2.25-2.25V7.333c0-1.24-1.01-2.25-2.25-2.25zM12 17.528a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"
+        />
+      </g>
+    </svg>
+  </View>
+</View>
+`;

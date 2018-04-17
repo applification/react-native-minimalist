@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DIVIDER Renders with DefaultProps 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DADADA",
+      "height": 1,
+      "marginLeft": 30,
+      "marginTop": 10,
+      "width": "100%",
+    }
+  }
+/>
+`;
+
+exports[`DIVIDER Renders with color prop 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "red",
+      "height": 1,
+      "marginLeft": 30,
+      "marginTop": 10,
+      "width": "100%",
+    }
+  }
+/>
+`;
+
+exports[`DIVIDER Renders with fullWidth prop 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DADADA",
+      "height": 1,
+      "marginLeft": 0,
+      "marginTop": 10,
+      "width": "100%",
+    }
+  }
+/>
+`;
