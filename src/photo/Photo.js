@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'react-primitives';
+import { Dimensions } from 'react-native';
 import PropTypes from 'prop-types';
 
 class PhotoElement extends Component {
@@ -10,7 +11,7 @@ class PhotoElement extends Component {
   render() {
     return (
       <Image
-        style={{ width: 350, height: 350 }}
+        style={{ width: Dimensions.get('window').width, height: 350 }}
         source={{ uri: this.props.imageURL }}
       />
     );

@@ -1,6 +1,5 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
 import { IconCamera } from 'react-native-minimalist-icons';
 
 import Content from '../src/content/Content';
@@ -9,7 +8,7 @@ import BodyText from '../src/bodytext/BodyText';
 import Profile from '../src/profile/Profile';
 import Divider from '../src/divider/Divider';
 import ListItem from '../src/listitem/ListItem';
-import Photo from '../src/photo/Photo';
+//import Photo from '../src/photo/Photo';
 import PhotoInfo from '../src/photoinfo/PhotoInfo';
 
 const Camera = <IconCamera style={{ color: '#000000', height: '1.6em' }} />;
@@ -54,13 +53,13 @@ storiesOf('Divider')
   .add('Divider Red', () => <Divider color="red" />)
   .add('Divider fullWidth', () => <Divider fullWidth />);
 
-storiesOf('Photo').add('Photo', () => (
-  <Photo
-    imageURL={
-      'https://scontent-lhr3-1.cdninstagram.com/vp/157f88d298739845194d19096bc9834f/5B6F2F47/t51.2885-15/e35/28157443_404441573303128_568809590188146688_n.jpg'
-    }
-  />
-));
+// storiesOf('Photo').add('Photo', () => (
+//   <Photo
+//     imageURL={
+//       'https://scontent-lhr3-1.cdninstagram.com/vp/157f88d298739845194d19096bc9834f/5B6F2F47/t51.2885-15/e35/28157443_404441573303128_568809590188146688_n.jpg'
+//     }
+//   />
+// ));
 
 storiesOf('ListItem').add('ListItem', () => (
   <Content>
