@@ -1,6 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
+import { IconCamera } from 'react-native-minimalist-icons';
 
 import Content from '../src/content/Content';
 import HeaderText from '../src/headertext/HeaderText';
@@ -9,8 +10,11 @@ import Profile from '../src/profile/Profile';
 import Divider from '../src/divider/Divider';
 import ListItem from '../src/listitem/ListItem';
 import Photo from '../src/photo/Photo';
+import PhotoInfo from '../src/photoinfo/PhotoInfo';
 
-storiesOf('Content', module)
+const Camera = <IconCamera style={{ color: '#000000', height: '1.6em' }} />;
+
+storiesOf('Content')
   .add('DefaultProps (white)', () => (
     <Content>
       <HeaderText>Children props</HeaderText>
@@ -22,7 +26,7 @@ storiesOf('Content', module)
     </Content>
   ));
 
-storiesOf('HeaderText', module)
+storiesOf('HeaderText')
   .add('HeaderText', () => <HeaderText>Big Header</HeaderText>)
   .add('HeaderText in red', () => (
     <HeaderText color="red">Red Header</HeaderText>
@@ -31,11 +35,9 @@ storiesOf('HeaderText', module)
     <HeaderText>React Native Minimalist</HeaderText>
   ));
 
-storiesOf('BodyText', module).add('BodyText', () => (
-  <BodyText>Body text</BodyText>
-));
+storiesOf('BodyText').add('BodyText', () => <BodyText>Body text</BodyText>);
 
-storiesOf('Profile', module)
+storiesOf('Profile')
   .add('Profile', () => <Profile />)
   .add('Profile URI', () => (
     <Profile
@@ -47,12 +49,12 @@ storiesOf('Profile', module)
   ))
   .add('Profile small', () => <Profile small />);
 
-storiesOf('Divider', module)
+storiesOf('Divider')
   .add('Divider', () => <Divider />)
   .add('Divider Red', () => <Divider color="red" />)
   .add('Divider fullWidth', () => <Divider fullWidth />);
 
-storiesOf('Photo', module).add('Photo', () => (
+storiesOf('Photo').add('Photo', () => (
   <Photo
     imageURL={
       'https://scontent-lhr3-1.cdninstagram.com/vp/157f88d298739845194d19096bc9834f/5B6F2F47/t51.2885-15/e35/28157443_404441573303128_568809590188146688_n.jpg'
@@ -60,39 +62,35 @@ storiesOf('Photo', module).add('Photo', () => (
   />
 ));
 
-storiesOf('ListItem', module).add('ListItem', () => (
+storiesOf('ListItem').add('ListItem', () => (
   <Content>
     <ListItem title="List item title" />
   </Content>
 ));
 
-// storiesOf('PhotoInfo', module)
-//   .add('PhotoInfo', () => (
-//     <PhotoInfo
-//       photo={{
-//         uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg'
-//       }}
-//       title="josh.duplessis"
-//       icon={require('../../imgs/more.png')}
-//     />
-//   ))
-//   .add('PhotoInfo Title ONLY', () => (
-//     <PhotoInfo title="josh.duplessis" icon={require('../../imgs/more.png')} />
-//   ))
-//   .add('PhotoInfo Title & Subtitle', () => (
-//     <PhotoInfo
-//       title="bentierney"
-//       subtitle="Guitar Center"
-//       icon={require('../../imgs/more.png')}
-//     />
-//   ))
-//   .add('PhotoInfo Title & Subtitle + Photo', () => (
-//     <PhotoInfo
-//       photo={{
-//         uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg'
-//       }}
-//       title="bentierney"
-//       subtitle="Guitar Center"
-//       icon={require('../../imgs/more.png')}
-//     />
-//   ));
+storiesOf('PhotoInfo')
+  .add('PhotoInfo', () => (
+    <PhotoInfo
+      photo={{
+        uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg',
+      }}
+      title="josh.duplessis"
+      icon={Camera}
+    />
+  ))
+  .add('PhotoInfo Title ONLY', () => (
+    <PhotoInfo title="josh.duplessis" icon={Camera} />
+  ))
+  .add('PhotoInfo Title & Subtitle', () => (
+    <PhotoInfo title="bentierney" subtitle="Guitar Center" icon={Camera} />
+  ))
+  .add('PhotoInfo Title & Subtitle + Photo', () => (
+    <PhotoInfo
+      photo={{
+        uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg',
+      }}
+      title="bentierney"
+      subtitle="Guitar Center"
+      icon={Camera}
+    />
+  ));
