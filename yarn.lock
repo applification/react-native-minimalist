@@ -8435,13 +8435,13 @@ react-native-auto-height-image@1.0.0:
     prop-types "^15.5.8"
     react-native-android-image-polyfill "^1.0.0"
 
-react-native-minimalist-icons@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-minimalist-icons/-/react-native-minimalist-icons-1.0.0.tgz#7759d28f4baa63d46424caa614d0373136556b20"
+react-native-minimalist-icons@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-minimalist-icons/-/react-native-minimalist-icons-1.0.1.tgz#f468b7427128fb66eba26993a77783781510159e"
 
-react-native-web@0.5.3:
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.5.3.tgz#1c977e28b0a22006838bf08d361f664935c180ed"
+react-native-web@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.6.0.tgz#46c843ab83c569246dc43ba745033c1bb4d22930"
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
@@ -8452,7 +8452,6 @@ react-native-web@0.5.3:
     inline-style-prefixer "^4.0.0"
     normalize-css-color "^1.0.2"
     prop-types "^15.6.0"
-    react-art "^16.2.0"
     react-timer-mixin "^0.13.3"
 
 react-native-web@^0.3.2:
