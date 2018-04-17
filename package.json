@@ -2,10 +2,10 @@
   "name": "react-native-minimalist",
   "version": "0.0.0-semantically-released",
   "description": "",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
     "commit": "git-cz",
-    "build": "rm -rf build; webpack",
+    "prepublish": "babel src --out-dir build",
     "test": "jest --forceExit",
     "test:watch": "jest --watch --coverage=false",
     "test:coverage": "jest --coverage",
@@ -19,7 +19,12 @@
     "type": "git",
     "url": "https://github.com/applification/react-native-minimalist.git"
   },
-  "keywords": ["react", "native", "elements", "minimalist"],
+  "keywords": [
+    "react",
+    "native",
+    "elements",
+    "minimalist"
+  ],
   "author": "Dave Hudson <dave@applification.net> (http://applification.net/)",
   "license": "MIT",
   "bugs": {
@@ -27,11 +32,17 @@
   },
   "homepage": "https://github.com/applification/react-native-minimalist#readme",
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.1",
+    "@storybook/addon-links": "^3.4.1",
+    "@storybook/addons": "^3.4.1",
+    "@storybook/react": "^3.4.1",
     "babel": "^6.23.0",
+    "babel-cli": "6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "8.2.2",
     "babel-loader": "^7.1.4",
     "babel-preset-react-native": "^4.0.0",
+    "babel-runtime": "^6.26.0",
     "codecov": "3.0.0",
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.1.0",
@@ -45,12 +56,7 @@
     "react-native": "^0.54.2",
     "semantic-release": "^15.1.2",
     "travis-deploy-once": "^4.4.1",
-    "webpack": "3.10.0",
-    "@storybook/react": "^3.4.1",
-    "@storybook/addon-actions": "^3.4.1",
-    "@storybook/addon-links": "^3.4.1",
-    "@storybook/addons": "^3.4.1",
-    "babel-runtime": "^6.26.0"
+    "webpack": "3.10.0"
   },
   "dependencies": {
     "babel-plugin-react-native-web": "0.5.3",
@@ -65,8 +71,12 @@
   "jest": {
     "preset": "react-native",
     "testRegex": ".*.test.js$",
-    "setupFiles": ["./jestsetup.js"],
-    "transformIgnorePatterns": ["node_modules/(?!react-native)"],
+    "setupFiles": [
+      "./jestsetup.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native)"
+    ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!src/index.js",
