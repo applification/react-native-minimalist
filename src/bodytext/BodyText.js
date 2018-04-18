@@ -5,6 +5,7 @@ import { Text } from 'react-primitives';
 class HeaderTextElement extends Component {
   static propTypes = {
     color: PropTypes.string.isRequired,
+    children: PropTypes.any,
   };
   static defaultProps = {
     color: '#000000',
