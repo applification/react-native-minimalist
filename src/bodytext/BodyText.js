@@ -8,7 +8,7 @@ class HeaderTextElement extends Component {
     children: PropTypes.any,
   };
   static defaultProps = {
-    color: '#333333',
+    color: '#000000',
   };
 
   render() {
