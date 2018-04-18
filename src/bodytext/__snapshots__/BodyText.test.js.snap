@@ -7,7 +7,7 @@ exports[`HEADER TEXT Renders with DefaultProps 1`] = `
   ellipsizeMode="tail"
   style={
     Object {
-      "color": "#000000",
+      "color": "#333333",
       "fontSize": 17,
       "fontWeight": "normal",
       "paddingBottom": 15,
