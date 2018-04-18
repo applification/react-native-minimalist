@@ -10,7 +10,7 @@ exports[`IMAGE Renders image 1`] = `
   style={
     Object {
       "height": 350,
-      "width": 750,
+      "width": 375,
     }
   }
 />

@@ -55,6 +55,7 @@
     "jest": "22.4.2",
     "jest-cli": "22.4.2",
     "react": "^16.2.0",
+    "react-native": "^0.54.2",
     "semantic-release": "^15.1.2",
     "travis-deploy-once": "^4.4.1",
     "webpack": "3.10.0"
@@ -63,7 +64,6 @@
     "babel-plugin-react-native-web": "0.6.0",
     "prop-types": "^15.6.1",
     "react-dom": "16.2.0",
-    "react-native": "^0.54.2",
     "react-native-auto-height-image": "1.0.0",
     "react-native-minimalist-icons": "1.0.1",
     "react-native-web": "0.6.0",
