@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Text } from 'react-primitives';
 
-class HeaderTextElement extends Component {
+class Header extends Component {
   static propTypes = {
     color: PropTypes.string.isRequired,
     children: PropTypes.any,
@@ -31,4 +31,4 @@ class HeaderTextElement extends Component {
   }
 }
 
-export default HeaderTextElement;
+export default Header;

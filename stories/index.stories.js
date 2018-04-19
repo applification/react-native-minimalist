@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { IconCamera } from 'react-native-minimalist-icons';
 
 import Content from '../src/content/Content';
-import HeaderText from '../src/headertext/HeaderText';
+import Header from '../src/header/Header';
 import Text from '../src/text/Text';
 import Profile from '../src/profile/Profile';
 import Divider from '../src/divider/Divider';
@@ -16,22 +16,20 @@ const Camera = <IconCamera style={{ color: '#000000', height: '1.6em' }} />;
 storiesOf('Content')
   .add('DefaultProps (white)', () => (
     <Content>
-      <HeaderText>Children props</HeaderText>
+      <Header>Children props</Header>
     </Content>
   ))
   .add('Passed in Props (pink)', () => (
     <Content backgroundColor="pink">
-      <HeaderText>Children props</HeaderText>
+      <Header>Children props</Header>
     </Content>
   ));
 
-storiesOf('HeaderText')
-  .add('HeaderText', () => <HeaderText>Big Header</HeaderText>)
-  .add('HeaderText in red', () => (
-    <HeaderText color="red">Red Header</HeaderText>
-  ))
-  .add('HeaderText should be single line even if long', () => (
-    <HeaderText>React Native Minimalist</HeaderText>
+storiesOf('Header')
+  .add('Header', () => <Header>Big Header</Header>)
+  .add('Header in red', () => <Header color="red">Red Header</Header>)
+  .add('Header should be single line even if long', () => (
+    <Header>React Native Minimalist</Header>
   ));
 
 storiesOf('BodyText').add('BodyText', () => <Text>Body text</Text>);
