@@ -4,7 +4,7 @@ import { IconCamera } from 'react-native-minimalist-icons';
 
 import Content from '../src/content/Content';
 import HeaderText from '../src/headertext/HeaderText';
-import BodyText from '../src/bodytext/BodyText';
+import Text from '../src/text/Text';
 import Profile from '../src/profile/Profile';
 import Divider from '../src/divider/Divider';
 import ListItem from '../src/listitem/ListItem';
@@ -34,7 +34,7 @@ storiesOf('HeaderText')
     <HeaderText>React Native Minimalist</HeaderText>
   ));
 
-storiesOf('BodyText').add('BodyText', () => <BodyText>Body text</BodyText>);
+storiesOf('BodyText').add('BodyText', () => <Text>Body text</Text>);
 
 storiesOf('Profile')
   .add('Profile', () => <Profile />)

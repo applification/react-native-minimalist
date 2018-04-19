@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Text } from 'react-primitives';
+import { Text as NativeText } from 'react-primitives';
 
-class HeaderTextElement extends Component {
+class Text extends Component {
   static propTypes = {
     color: PropTypes.string.isRequired,
     children: PropTypes.any,
@@ -13,7 +13,7 @@ class HeaderTextElement extends Component {
 
   render() {
     return (
-      <Text
+      <NativeText
         style={{
           color: this.props.color,
           paddingLeft: 25,
@@ -24,9 +24,9 @@ class HeaderTextElement extends Component {
         }}
       >
         {this.props.children}
-      </Text>
+      </NativeText>
     );
   }
 }
 
-export default HeaderTextElement;
+export default Text;
