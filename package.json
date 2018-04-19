@@ -37,6 +37,7 @@
     "@storybook/addon-links": "^3.4.1",
     "@storybook/addons": "^3.4.1",
     "@storybook/react": "^3.4.1",
+    "art": "0.10.2",
     "babel": "^6.23.0",
     "babel-cli": "6.26.0",
     "babel-core": "^6.26.0",
