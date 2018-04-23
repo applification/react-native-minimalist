@@ -70,7 +70,7 @@ storiesOf('PhotoInfo')
   .add('PhotoInfo', () => (
     <PhotoInfo
       photo={{
-        uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg',
+        uri: 'https://randomuser.me/api/portraits/women/21.jpg',
       }}
       title="Kristina Taylor"
       icon={Camera}
@@ -85,9 +85,9 @@ storiesOf('PhotoInfo')
   .add('PhotoInfo Title & Subtitle + Photo', () => (
     <PhotoInfo
       photo={{
-        uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg',
+        uri: 'https://randomuser.me/api/portraits/women/21.jpg',
       }}
-      title="bentierney"
+      title="Kristina Taylor"
       subtitle="Guitar Center"
       icon={Camera}
     />
