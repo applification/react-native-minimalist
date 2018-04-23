@@ -15,13 +15,13 @@
 [![MIT License](https://img.shields.io/npm/l/react-native-minimalist.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Styled with Prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-> **Status**: Alpha (In development, do not use in production).
+> **Status**: Alpha (It is not recommended you use in a production app yet).
 
 ---
 
 ## The Problem
 
-You want to use the same React components across React & React Native, maybe even Sketch and React VR.
+You want a set of universal components that work across React & React Native, perhaps even Sketch and React VR.
 
 ## The Solution
 
@@ -31,11 +31,11 @@ A React component library that utilises [React Primitives](https://github.com/le
 
 ## Approach
 
-Developing Progressive Web Apps with a great UX is hard as we push the boundaries of what web is capable of in terms of apps. This library is inspired by the arguments of Nicolas Gallagher that React Native is in fact the best platform to deliver excellent Progressive Web Apps.
+This library is highly inspired by Nicolas Gallagher's view that developing great web apps using the DOM is hard and [React Native is a better platform for developing web apps](https://twitter.com/necolas/status/983769332411805697).
 
-The use of React Primitives is a logically extension of using React Native Web to deliver a set of components that can be rendered universally across a native mobile app or a progressive web app.
+The use of Leland Richardson's [React Primitives](https://github.com/lelandrichardson/react-primitives) is a logical extension enabling the use of React Native to deliver native mobile apps, web apps and other mediums using universally rendered components.
 
-The components are developed with a Pure UI approach, whereby the components will always render the same way given the same props. The use of Storybook provides a full API and demo of each component and it's possible states.
+Components are developed using a [Pure UI approach](https://rauchg.com/2015/pure-ui) as advocated by Guillermo Rauch, where the UI is a pure function of state.
 
 ## Table of Contents
 
@@ -61,6 +61,16 @@ The components are developed with a Pure UI approach, whereby the components wil
 npm install --save react-native-minimalist
 ```
 
+## Dependencies
+
+This library makes use of SVG icons via [React Native Minimalist Icons](https://www.npmjs.com/package/react-native-minimalist-icons) which is a based off Nicolas Gallagher's blog post on [Making SVG icon libraries for React apps](http://nicolasgallagher.com/making-svg-icon-libraries-for-react-apps/).
+
+To install:
+
+```bash
+npm install --save react-native-minimalist-icons
+```
+
 ## Usage
 
 ```JavaScript
@@ -78,16 +88,14 @@ import {
 
 ## Examples
 
-All components have been developed and tested using storybook, to play around with all the components, props and various states clone the Demo App.
-
-Storybook API [https://applification.github.io/react-native-minimalist](https://applification.github.io/react-native-minimalist)
+All components have been developed and tested using storybook. View the Storybook [Component API](https://applification.github.io/react-native-minimalist)
 
 Test app shells:
 
-* Gatsby JS
 * [Next JS](https://github.com/applification/react-native-minimalist-nextjs)
 * [Create React App](https://github.com/applification/react-native-minimalist-cra)
 * [Expo](https://github.com/applification/react-native-minimalist-expo)
+* Gatsby JS
 * React Native
 * Sketch
 
@@ -112,18 +120,18 @@ Navigation is a native experience. The recommended approach is to handle this ou
 
 _Native_:
 
-* React Native Navigation
-* React Navigation
+* [React Native Navigation](https://github.com/wix/react-native-navigation/)
+* [React Navigation](https://reactnavigation.org/)
 
 _Web_:
 
-* Ant Mobile Tabs in combination with routing such as React Router
+* [Ant Mobile Tabs](https://mobile.ant.design/components/tabs/) in combination with a routing library such as [React Router](https://github.com/ReactTraining/react-router)
 
-Essentially it is up to you to choose and implement the best navigation for your app. You can find examples of React Native Navigation and Ant Mobile Tabs in the examples apps.
+Essentially it is up to you to choose and implement the best navigation for your app.
 
 ## Inspiration
 
-This repository was inspired by:
+This repository takes inspiration from:
 
 * [React Primitives](https://github.com/lelandrichardson/react-primitives)
 * [React Native Web](https://github.com/necolas/react-native-web)
@@ -154,12 +162,13 @@ _Issues_
 
 _Roadmap_
 
-* Button (simple component to provide basic button)
-* Toast Notification (Native and AntMobile for web)
-* Search Bar (Native and AntMobile for web)
-* Card (compose components together to create a card component)
-* Carousel (Native and AntMobile for web)
-* MapView (Native and Google Maps or Mapbox for web)
-* Video (Native and HTML Video)
-* AlertDialog (Native and AntMobile for web)
+* Skeleton loader component
+* TextInput component
+* Button component
+* Toast Notification component
+* Search Bar component
+* Card component
+* Swipeable Views component
+* MapView component
+* Video component
 * Theme support

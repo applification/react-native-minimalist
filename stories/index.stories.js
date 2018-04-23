@@ -72,12 +72,12 @@ storiesOf('PhotoInfo')
       photo={{
         uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg',
       }}
-      title="josh.duplessis"
+      title="Kristina Taylor"
       icon={Camera}
     />
   ))
   .add('PhotoInfo Title ONLY', () => (
-    <PhotoInfo title="josh.duplessis" icon={Camera} />
+    <PhotoInfo title="Kristina Taylor" icon={Camera} />
   ))
   .add('PhotoInfo Title & Subtitle', () => (
     <PhotoInfo title="bentierney" subtitle="Guitar Center" icon={Camera} />
