@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import Text from './Text';
 
-describe('HEADER TEXT', () => {
+describe('BODY TEXT', () => {
   it('Renders with DefaultProps', () => {
     expect(renderer.create(<Text>Body text</Text>)).toMatchSnapshot();
   });
@@ -29,5 +29,14 @@ describe('HEADER TEXT', () => {
     expect(paddingLeft).toBe(25);
     expect(paddingRight).toBe(25);
     expect(paddingBottom).toBe(15);
+  });
+
+  it('Clean prop renders without padding', () => {
+    const component = renderer.create(<Text clean>No padding</Text>).toJSON();
+    const { paddingLeft, paddingRight, paddingBottom } = component.props.style;
+
+    expect(paddingLeft).toBe(0);
+    expect(paddingRight).toBe(0);
+    expect(paddingBottom).toBe(0);
   });
 });

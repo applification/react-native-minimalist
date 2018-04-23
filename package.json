@@ -14,18 +14,16 @@
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o storybook"
+    "build-storybook": "build-storybook -o storybook",
+    "toc": "doctoc README.md",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/applification/react-native-minimalist.git"
   },
-  "keywords": [
-    "react",
-    "native",
-    "elements",
-    "minimalist"
-  ],
+  "keywords": ["react", "native", "elements", "minimalist"],
   "author": "Dave Hudson <dave@applification.net> (http://applification.net/)",
   "license": "MIT",
   "bugs": {
@@ -37,6 +35,7 @@
     "@storybook/addon-links": "^3.4.1",
     "@storybook/addons": "^3.4.1",
     "@storybook/react": "^3.4.1",
+    "all-contributors-cli": "4.11.1",
     "art": "0.10.2",
     "babel": "^6.23.0",
     "babel-cli": "6.26.0",
@@ -73,13 +72,9 @@
   },
   "jest": {
     "preset": "react-native",
-    "testRegex": ".*.test.js$",
-    "setupFiles": [
-      "./jestsetup.js"
-    ],
-    "transformIgnorePatterns": [
-      "node_modules/(?!react-native)"
-    ],
+    "testRegex": "src/.*.test.js$",
+    "setupFiles": ["./jestsetup.js"],
+    "transformIgnorePatterns": ["node_modules/(?!react-native)"],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!src/index.js",

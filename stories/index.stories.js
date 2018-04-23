@@ -32,15 +32,16 @@ storiesOf('Header')
     <Header>React Native Minimalist</Header>
   ));
 
-storiesOf('BodyText').add('BodyText', () => <Text>Body text</Text>);
+storiesOf('Text')
+  .add('Text', () => <Text>Body text</Text>)
+  .add('Text clean', () => <Text clean>Body text</Text>);
 
 storiesOf('Profile')
   .add('Profile', () => <Profile />)
   .add('Profile URI', () => (
     <Profile
       source={{
-        uri:
-          'https://pbs.twimg.com/profile_images/941645845409226752/Lt1apZ3Q_400x400.jpg',
+        uri: 'https://randomuser.me/api/portraits/women/21.jpg',
       }}
     />
   ))

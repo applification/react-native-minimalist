@@ -1,0 +1,25 @@
+{
+  "projectName": "react-native-minimalist",
+  "projectOwner": "applification",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "DaveHudson",
+      "name": "Dave Hudson",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5528035?v=4",
+      "profile": "http://applification.net",
+      "contributions": [
+        "doc",
+        "code",
+        "example",
+        "test"
+      ]
+    }
+  ]
+}

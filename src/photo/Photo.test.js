@@ -12,10 +12,11 @@ describe('IMAGE', () => {
       )
       .toJSON();
 
-    // const width = component.props.style[0].width;
+    const width = component.props.style.width;
     // const deviceWidth = Dimensions.get('window').width;
 
     // expect(width).toBe(deviceWidth);
+    expect(width).toBe(375);
     expect(component).toMatchSnapshot();
   });
 });

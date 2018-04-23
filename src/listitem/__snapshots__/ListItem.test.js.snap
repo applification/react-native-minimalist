@@ -4,7 +4,7 @@ exports[`LISTITEM Renders a list item 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ccc",
+      "backgroundColor": "#F6F6F6",
       "paddingBottom": 20,
       "paddingLeft": 20,
       "paddingTop": 20,

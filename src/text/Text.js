@@ -5,10 +5,12 @@ import { Text as NativeText } from 'react-primitives';
 class Text extends Component {
   static propTypes = {
     color: PropTypes.string.isRequired,
+    clean: PropTypes.bool.isRequired,
     children: PropTypes.any,
   };
   static defaultProps = {
     color: '#000000',
+    clean: false,
   };
 
   render() {
@@ -16,9 +18,9 @@ class Text extends Component {
       <NativeText
         style={{
           color: this.props.color,
-          paddingLeft: 25,
-          paddingRight: 25,
-          paddingBottom: 15,
+          paddingLeft: this.props.clean ? 0 : 25,
+          paddingRight: this.props.clean ? 0 : 25,
+          paddingBottom: this.props.clean ? 0 : 15,
           fontWeight: 'normal',
           fontSize: 17,
         }}

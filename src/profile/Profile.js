@@ -9,7 +9,7 @@ class ProfileElement extends Component {
   };
   static defaultProps = {
     source: {
-      uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg',
+      uri: 'https://randomuser.me/api/portraits/women/21.jpg',
     },
     small: false,
   };

@@ -12,7 +12,7 @@ class ListItemComponent extends Component {
     return (
       <View
         style={{
-          backgroundColor: '#ccc',
+          backgroundColor: '#F6F6F6',
           paddingLeft: 20,
           paddingTop: 20,
           paddingBottom: 20,

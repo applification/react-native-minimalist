@@ -22,7 +22,7 @@ exports[`PROFILE Renders profile image with DefaultProps 1`] = `
 <Image
   source={
     Object {
-      "uri": "https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg",
+      "uri": "https://randomuser.me/api/portraits/women/21.jpg",
     }
   }
   style={

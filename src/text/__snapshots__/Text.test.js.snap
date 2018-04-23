@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HEADER TEXT Renders with DefaultProps 1`] = `
+exports[`BODY TEXT Renders with DefaultProps 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -20,7 +20,7 @@ exports[`HEADER TEXT Renders with DefaultProps 1`] = `
 </Text>
 `;
 
-exports[`HEADER TEXT Renders with color prop (red) 1`] = `
+exports[`BODY TEXT Renders with color prop (red) 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
