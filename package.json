@@ -6,6 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "build": "babel src --out-dir build",
+    "size": "pkgfiles",
     "prepublish": "npm run build",
     "test": "jest --forceExit",
     "test:watch": "jest --watch --coverage=false",
@@ -54,6 +55,7 @@
     "ghooks": "2.0.2",
     "jest": "22.4.2",
     "jest-cli": "22.4.2",
+    "pkgfiles": "2.3.2",
     "react": "^16.2.0",
     "react-native": "^0.54.2",
     "semantic-release": "^15.1.2",

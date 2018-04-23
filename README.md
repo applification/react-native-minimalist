@@ -2,7 +2,7 @@
 
 # react-native-minimalist
 
-![React Native Minimalist Logo](Minimalist-Logo.png)
+![React Native Minimalist Logo](https://raw.githubusercontent.com/applification/react-native-minimalist/master/Minimalist-Logo.png)
 
 </div>
 
@@ -27,7 +27,7 @@ You want a set of universal components that work across React & React Native, pe
 
 A React component library that utilises [React Primitives](https://github.com/lelandrichardson/react-primitives) and [React Native Web](https://github.com/necolas/react-native-web) to target multiple platforms using [React Native](https://facebook.github.io/react-native/).
 
-![React Native Minimalist](react-native-minimalist.png)
+![React Native Minimalist](https://raw.githubusercontent.com/applification/react-native-minimalist/master/react-native-minimalist.png)
 
 ## Approach
 
