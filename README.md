@@ -92,10 +92,10 @@ All components have been developed and tested using storybook. View the Storyboo
 
 Test app shells:
 
+* [Gatsby JS](https://github.com/applification/react-native-minimalist-gatsby)
 * [Next JS](https://github.com/applification/react-native-minimalist-nextjs)
 * [Create React App](https://github.com/applification/react-native-minimalist-cra)
 * [Expo](https://github.com/applification/react-native-minimalist-expo)
-* Gatsby JS
 * React Native
 * Sketch
 
